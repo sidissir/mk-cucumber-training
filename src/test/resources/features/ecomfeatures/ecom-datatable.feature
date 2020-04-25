@@ -1,3 +1,4 @@
+@ecom @Order
 Feature: Requirement is to check whether multiple products can be added to the cart
 
  # Scenario: To verify more than one product can be added to the cart

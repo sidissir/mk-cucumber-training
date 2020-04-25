@@ -1,8 +1,8 @@
+@acc @Login
 Feature: To test login
 
   Scenario: Search from search box without selecting a ctegory
-    Given I have opened a browser
-    And I navigate to home page
+    Given I am on home page
     When click on login link
     And I enter valid username in username field
     And I enter valid password in password field

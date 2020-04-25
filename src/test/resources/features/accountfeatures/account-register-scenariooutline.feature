@@ -1,3 +1,4 @@
+@acc @SmokeTest
 Feature: To create a new account
 
   Scenario Outline: To test whether user registration is succesfull

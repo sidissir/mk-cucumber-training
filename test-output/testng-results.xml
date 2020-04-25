@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3178" started-at="2020-04-25T12:04:29 BST" finished-at="2020-04-25T12:04:32 BST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllTestNgRuner@7c29daf3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="3178" started-at="2020-04-25T12:04:29 BST" finished-at="2020-04-25T12:04:32 BST">
+      <class name="runners.AllTestNgRuner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.AllTestNgRuner@7c29daf3]" name="setUpClass" is-config="true" duration-ms="1158" started-at="2020-04-25T12:04:29 BST" finished-at="2020-04-25T12:04:31 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllTestNgRuner@7c29daf3]" name="runScenario" duration-ms="582" started-at="2020-04-25T12:04:31 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-25T12:04:31 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search from search box without selecting a ctegory"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllTestNgRuner@7c29daf3]" name="runScenario" duration-ms="46" started-at="2020-04-25T12:04:31 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-25T12:04:31 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test whether user registration is succesfull"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To create a new account"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllTestNgRuner@7c29daf3]" name="runScenario" duration-ms="29" started-at="2020-04-25T12:04:31 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-25T12:04:31 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test whether user registration is succesfull"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To create a new account"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllTestNgRuner@7c29daf3]" name="runScenario" duration-ms="16" started-at="2020-04-25T12:04:31 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-25T12:04:31 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test whether user registration is succesfull"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To create a new account"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllTestNgRuner@7c29daf3]" name="runScenario" duration-ms="25" started-at="2020-04-25T12:04:31 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-25T12:04:31 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test whether user registration is succesfull"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To create a new account"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllTestNgRuner@7c29daf3]" name="runScenario" duration-ms="27" started-at="2020-04-25T12:04:31 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-25T12:04:31 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify more than one product can be added to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Requirement is to check whether multiple products can be added to the cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllTestNgRuner@7c29daf3]" name="runScenario" duration-ms="36" started-at="2020-04-25T12:04:31 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-25T12:04:31 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search from search box without selecting a ctegory"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This feature is to test search functionlaity on e-comerce site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllTestNgRuner@7c29daf3]" name="runScenario" duration-ms="57" started-at="2020-04-25T12:04:31 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-25T12:04:32 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search from search box  with selecting category"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This feature is to test search functionlaity on e-comerce site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllTestNgRuner@7c29daf3]" name="runScenario" duration-ms="10" started-at="2020-04-25T12:04:32 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-25T12:04:32 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search from search box without selecting a ctegory"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This feature is to test search functionlaity on e-comerce site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.AllTestNgRuner@7c29daf3]" name="runScenario" duration-ms="49" started-at="2020-04-25T12:04:32 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-25T12:04:32 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search from search box  with selecting category"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This feature is to test search functionlaity on e-comerce site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.AllTestNgRuner@7c29daf3]" name="tearDownClass" is-config="true" duration-ms="877" started-at="2020-04-25T12:04:32 BST" finished-at="2020-04-25T12:04:32 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.AllTestNgRuner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
